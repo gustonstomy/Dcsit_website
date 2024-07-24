@@ -1,0 +1,79 @@
+
+.teaching-staff-container-9 {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.teaching-staff-container-9 h2{
+    text-decoration: underline;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+.staff-list {
+   margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.staff-card {
+  text-align: center;
+}
+
+.teaching-staff-container-9 .staff-image1 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.teaching-staff-container-9 h3 {
+    font-size: 1rem;
+  margin: 10px 0 5px 0;
+}
+
+.teaching-staff-container-9 p {
+  font-size: 1rem;
+  color: gray;
+  margin: 0;
+}
+
+/* @media screen and (max-width: 768px) {} */
+@media screen and (max-width: 480px) {
+.staff-list {
+   margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: auto;
+  /* border: 1px solid red; */
+}
+.staff-card {
+  text-align: center;
+  width: auto;
+  height: 35vh;
+  /* border: 1px solid blue; */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.teaching-staff-container-9 .staff-image1 {
+  width: 250px;
+  height: 250px;
+}
+.teaching-staff-container-9 h2{
+    font-size: 2.5rem;
+}
+.teaching-staff-container-9 h3 {
+    font-size: 1.5rem;
+}
+
+.teaching-staff-container-9 p {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
+}

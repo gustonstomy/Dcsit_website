@@ -1,0 +1,267 @@
+.events-section {
+  text-align: center;
+  padding: 2rem;
+  margin-left: 5rem;
+}
+.events-header{
+  margin-bottom: 1rem;
+
+}
+.events-header a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 2rem;
+  }
+
+.events-description {
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  color: #4b5563;
+}
+
+.events-container {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.event-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 40%;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.event-date span {
+  background-color: var(--paletteColor3);;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.event-title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.event-details {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  color: #6b7280;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.event-time .arrow-circle {
+  display: inline-block;
+  margin-right: 0.5rem;
+  border: 2px solid #6b7280;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+.event-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.location-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.event-description {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.learn-more {
+  text-decoration: none;
+  color: var(--paletteColor3);;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.learn-more:hover {
+    color: var(--paletteColor4);
+}
+.view-all-events {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.1rem 2.2rem;
+  background-color: var(--paletteColor3);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 3rem;
+}
+
+.view-all-events:hover{
+    background-color: var(--paletteColor5);
+    color: var(--paletteColor3);
+    border: 1px solid var(--paletteColor3);
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 770px) {
+  .events-container {
+    flex-direction: column;
+    align-items: center;
+    width: 50em;
+    height: auto;
+    padding: 0em;
+    margin-left: 0rem;
+  }
+  .events-section {
+  padding: 0rem;
+  margin-left: 0rem;
+}
+
+.events-header{
+  margin: 2rem;
+}
+.events-header a {
+  margin: 2rem;
+  font-size: 2.5rem;
+  }
+  .events-description {
+  margin-bottom: 2rem;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-size: 1.7rem;
+}
+  .event-card {
+    width: 90%;
+  }
+
+.event-date span {
+  padding: 0.7rem 1rem;
+  font-size: 1.3rem;
+}
+
+.event-title {
+  margin-top: 1.4rem;
+  font-size: 2rem;
+}
+
+.event-details {
+  margin: 1rem 0;
+  font-size: 1.7rem;
+}
+
+.event-time .arrow-circle {
+  border-radius: 50%;
+  width: 1.9rem;
+  height: 1.9rem;
+  line-height: 1.7rem;
+}
+
+.location-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.event-description {
+  font-size: 1.9rem;
+}
+
+.learn-more {
+  font-size: 1.7rem;
+}
+.view-all-events {
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  font-size: 2em;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .events-container {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 0em;
+    margin-left: 0rem;
+    /* border: 1px solid blue; */
+  }
+  .events-section {
+  padding: 0rem;
+  margin-left: 0rem;
+}
+
+.events-header{
+  margin: 2rem;
+}
+.events-header a {
+  font-size: 1.5rem;
+  }
+  .events-description {
+  font-size: 1.7rem;
+   padding-left: 0em;
+  padding-right: 0em;
+}
+  .event-card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+.event-date span {
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+}
+
+.event-title {
+  margin-top: 1.4rem;
+  font-size: 1.7rem;
+}
+
+.event-details {
+  margin: 1rem 0;
+  font-size: 1.7rem;
+}
+
+.event-time .arrow-circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.2rem;
+  font-size: 1rem;
+}
+
+.location-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.event-description {
+  font-size: 1.5rem;
+}
+
+.learn-more {
+  font-size: 1.4rem;
+}
+.view-all-events {
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  font-size: 2.2em;
+}
+  .view-all-events {
+    font-size: 1rem;
+  }
+}

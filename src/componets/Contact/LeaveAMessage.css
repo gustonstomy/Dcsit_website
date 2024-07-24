@@ -1,0 +1,123 @@
+.leave-message-container {
+  text-align: center;
+  background-color: #f5fafd;
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leave-message-container h1 {
+  font-size: 2.3em;
+  margin-bottom: 15px;
+}
+
+.leave-message-container p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.leave-message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.leave-message-form input,
+.leave-message-form textarea {
+  padding: 20px;
+  font-size: 1.3em;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.leave-message-form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.leave-message-form button {
+  padding: 15px;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff7143;
+  color: white;
+  cursor: pointer;
+}
+
+.leave-message-form button:hover {
+  background-color: #ff5a1e;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .leave-message-container {
+    padding: 30px;
+  }
+
+  .leave-message-container h1 {
+    font-size: 2em;
+  }
+
+  .leave-message-container p {
+    font-size: 1.3em;
+  }
+
+  .leave-message-form {
+    gap: 20px;
+  }
+
+  .leave-message-form input,
+  .leave-message-form textarea,
+  .leave-message-form button {
+    padding: 15px;
+    font-size: 1.3em;
+  }
+
+  .leave-message-form textarea {
+    height: 120px;
+  }
+
+  .leave-message-form button {
+    padding: 15px;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .leave-message-container {
+    padding: 20px;
+  }
+
+  .leave-message-container h1 {
+    font-size: 1.5em;
+  }
+
+  .leave-message-container p {
+    font-size: 1em;
+  }
+
+  .leave-message-form {
+    gap: 15px;
+  }
+
+  .leave-message-form input,
+  .leave-message-form textarea,
+  .leave-message-form button {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .leave-message-form textarea {
+    height: 100px;
+  }
+
+  .leave-message-form button {
+    padding: 15px;
+    font-size: 1.2em;
+  }
+}

@@ -1,0 +1,23 @@
+
+
+body {
+  font-family: var(--fontFamily);
+}
+.trans-con-0 {
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
+  color: #fff; /* White text color */
+  padding: 2rem;
+  max-width: 100%; /* Max width of the container */
+  /*margin: 2rem auto;  Center the container and add vertical margin */
+  text-align: center; /* Center align text */
+  align-items: center;
+  align-content: center;
+  height: 45vh;
+  font-family: 'Montserrat', sans-serif; /* Add this line to use Montserrat */
+}
+
+.trans-con-0 h1 {
+font-size: 3rem; /* Font size for the title */
+margin-bottom: 1rem; /* Space below the title */
+font-weight: 700; /* Bold title */
+}

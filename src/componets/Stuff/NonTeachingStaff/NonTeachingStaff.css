@@ -1,0 +1,16 @@
+
+.teaching-staff-container12 {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  /* margin-bottom: 4rem; */
+  margin-top: 2rem;
+}
+
+.teaching-staff-container12 h2{
+    text-decoration: underline;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+

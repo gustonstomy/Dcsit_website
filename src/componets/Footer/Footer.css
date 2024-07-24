@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer {
+    padding: 2rem 11rem;
+    background: #171d1f;
+    color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    height: 50vh;
+}
+
+.footer-section {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 3rem 0;
+}
+
+.footer-section h4 {
+    font-size: 1.5rem;
+    font-weight: 500px;
+    margin: 0 0 2rem 0;
+}
+
+.contact-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.5;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.footer .footer-section .Menus a p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+/**/
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 2rem; /* Add margin to separate the links */
+}
+.footer .footer-section .contact a p {
+     margin: 0;
+    font-size: 1rem;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  font-size: 1.5rem; /* Adjust size as needed */
+}
+
+.footer .footer-section .contact  p {
+    font-size: 1rem;
+}
+.footer-section .Menus a:hover {
+    color: #FE6B42;
+}
+
+.footer-section .contact a:hover {
+    color: #FE6B42;
+}
+
+.footer-section .socials svg {
+    margin-right: 1rem;
+    justify-content: space-between;
+}
+
+.footer-section .socials a svg:hover {
+    color: #FE6B42;
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+    font-weight: 200rem;
+}
+
+.Bottom {
+    border-top: 1.5px solid rgb(175, 173, 174);
+    flex-direction: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.Bottom .footer-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.Bottom .footer-menu a {
+    display: flex;
+    flex-direction: row;
+    align-self: right;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #ffff;
+    padding-top: 1rem;
+}
+
+.Bottom .footer-menu a:hover {
+    color: #FE6B42;
+}
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+     .footer {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .Menus{
+        text-align: start;
+        padding-left: 0em;
+        margin-left: 0em;
+    }
+    .footer .footer-section .Menus a p {
+         font-size: 1.2rem;
+    }
+    .footer-section {
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+
+    .footer-section a {
+        font-size: 1rem;
+    }
+
+    .footer-section .socials h4{
+        margin-top: 1em;
+    }
+    .footer-section .socials svg {
+        margin-right: 0.5rem;
+    }
+
+    .footer-section p {
+        font-size: 1rem;
+    }
+    .contact a {
+  margin-bottom: 1rem; /* Add margin to separate the links */
+}
+    .Bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Bottom .footer-menu {
+        flex-direction: row;
+        justify-content: center; /* Ensure items are centered */
+        flex-wrap: wrap; /* Allow wrapping if needed */
+    }
+
+    .Bottom .footer-menu a {
+        margin: 0.5rem 1rem; /* Add margin for spacing */
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+    .footer {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .Menus{
+        text-align: start;
+        padding-left: 0em;
+        margin-left: 0em;
+    }
+    .footer .footer-section .Menus a p {
+         font-size: 1.2rem;
+    }
+    .footer-section {
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+
+    .footer-section a {
+        font-size: 1rem;
+    }
+
+    .footer-section .socials h4{
+        margin-top: 1em;
+    }
+    .footer-section .socials svg {
+        margin-right: 0.5rem;
+    }
+
+    .footer-section p {
+        font-size: 1rem;
+    }
+    .contact a {
+  margin-bottom: 1rem; /* Add margin to separate the links */
+}
+    .Bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Bottom .footer-menu {
+        flex-direction: row;
+        justify-content: center; /* Ensure items are centered */
+        flex-wrap: wrap; /* Allow wrapping if needed */
+    }
+
+    .Bottom .footer-menu a {
+        margin: 0.5rem 1rem; /* Add margin for spacing */
+    }
+}

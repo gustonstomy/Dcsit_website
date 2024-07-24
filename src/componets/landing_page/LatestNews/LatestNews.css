@@ -1,0 +1,151 @@
+.latest-news-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.latest-news-header {
+  background-color: #0a47b3;
+  width: 100%;
+  height: 8vh;
+  text-align: center;
+  padding-top: 0.23em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.latest-news-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 30rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+}
+
+.news-text {
+  padding: 1rem;
+  text-align: left;
+}
+
+.news-category {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.news-title {
+  font-size: 1.25rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.view-all-news-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.1rem 2.2rem;
+  background-color: var(--paletteColor3);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  align-self: center;
+  margin: 3rem;
+}
+
+.view-all-news-btn:hover {
+  background-color: var(--paletteColor5);
+  color: var(--paletteColor3);
+  border: 1px solid var(--paletteColor3);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .latest-news-section {
+    width: 90%;
+    align-items: center;
+  }
+
+  .news-card {
+    width: 100%;
+    
+  }
+
+  .latest-news-header {
+    font-size: 1.25rem; 
+    width: 100%;
+    height: 5vh;
+    align-content: center;
+  }
+
+  .news-title {
+    font-size: 2.5rem;
+
+  }
+
+  .news-category, .news-date {
+    font-size: 1.5rem;
+  }
+
+  .view-all-news-btn {
+    margin-top: .50em;
+    padding: 1.2rem 1.8rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .latest-news-section {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .latest-news-header {
+    font-size: 1rem;
+    height: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .news-card {
+    width: 100%;
+  }
+
+  .news-title {
+    font-size: 0.9rem;
+  }
+
+  .news-category, .news-date {
+    font-size: 0.7rem;
+  }
+
+  .view-all-news-btn {
+    padding: 1.2rem 1.5rem;
+    font-size: 1.5rem;
+    margin-top: .50em;
+  }
+}

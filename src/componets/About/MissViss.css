@@ -1,0 +1,122 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.programs-container10 {
+  display: flex;
+  height: 60vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.program-card10 {
+  margin-top: .2rem;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  padding: 20px;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  text-align: start;
+  background-color: var(--paletteColor4);
+}
+.program-card11 {
+  margin-top: .2rem;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  padding: 20px;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  text-align: start;
+  background-color: var(--paletteColor3);
+}
+
+.program-card11 h1 {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.program-card10 h1 {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.program-card11 p {
+   color: var(--paletteColor5);
+   line-height: 2rem;
+   font-size: 1.5em;
+   margin-bottom: 1.5rem;
+   font-family: 'Montserrat', sans-serif;
+}
+.program-card10 p {
+   color: var(--paletteColor5);
+   line-height: 2rem;
+   font-size: 1.5em;
+   margin-bottom: 1.5rem;
+   font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .programs-container10 {
+ flex-direction: column;
+ border: 1px solid blue;
+ height: 100vh;
+}
+.program-card10 {
+  width: auto;
+  height: 100vh;
+}
+.program-card10 {
+  width: auto;
+  height: 100vh;
+}
+.program-card11 {
+  width: auto;
+  height: 100vh;
+}
+.program-card10 h1 {
+  font-size: 2.5em;
+}
+.program-card11 h1 {
+  font-size: 2.5em;
+}
+.program-card11 p {
+  font-size: 1.8rem;
+}
+.program-card10 p {
+  font-size: 1.8rem;
+}
+}
+@media screen and (max-width: 480px) {
+  .programs-container10 {
+ flex-direction: column;
+ border: 1px solid blue;
+ height: 100vh;
+}
+.program-card10 {
+  width: auto;
+  height: 100vh;
+  padding-left: 2rem;
+}
+.program-card11 {
+  width: auto;
+  height: 100vh;
+  padding-left: 2rem;
+}
+.program-card10 h1 {
+  font-size: 2.5em;
+}
+.program-card11 h1 {
+  font-size: 2.5em;
+}
+.program-card11 p {
+  font-size: 1.1rem;
+}
+.program-card10 p {
+  font-size: 1.1rem;
+}
+}

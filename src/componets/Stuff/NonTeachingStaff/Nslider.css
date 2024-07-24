@@ -1,0 +1,24 @@
+.img-slider3 {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+}
+
+.img-slider3 .slider3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.img-slider3 .slider3.active {
+  opacity: 1;
+}
+
+.img-slider3 .slider3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}

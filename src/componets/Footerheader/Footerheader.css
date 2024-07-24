@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer1-section {
+    padding: 4rem 10rem;
+    background: #0D2980;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    opacity: 0;
+    align-items: center;
+    transform: translateY(-50px); /* Start above the viewport */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.footer1-section h2 {
+    font-size: 2.4rem;
+    color: #ffff;
+}
+
+.footer1-section .StudyBtn {
+    background-color: #FF6B42;
+    border-radius: 5rem;
+    border-color: #FF6B42;
+    padding: 0.8rem 3rem;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.footer1-section .footer-CTA {
+    padding-top: 2rem;
+}
+
+.footer1-section .footer-CTA .StudyBtn:hover {
+    background-color: #ffff;
+    color: #FF6B42;
+    border-radius: 5rem;
+    border-color: #FF6B42;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.footer1-section{
+    animation-name: slideInFromAbove;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.8s;
+    animation-fill-mode: both;
+}
+
+
+.slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+    .footer1-section {
+        padding: 5rem 3rem;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+
+    .footer1-section h2 {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer1-section .StudyBtn {
+        padding: 1.5rem 2.5rem;
+        font-size: 2rem;
+    }
+
+    .footer1-section .footer-CTA {
+        padding-top: 1.5rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .footer1-section {
+        padding: 1.5rem 1.5rem;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+
+    .footer1-section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer1-section .StudyBtn {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .footer1-section .footer-CTA {
+        padding-top: 1rem;
+    }
+}
