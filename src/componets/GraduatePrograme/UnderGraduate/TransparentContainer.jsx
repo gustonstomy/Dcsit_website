@@ -1,16 +1,15 @@
 import React from 'react';
-import './TransparentContainer.css';
 
 const TransparentContainer = () => {
   return (
-    <div className="transparent-container">
-      <p className="container-description">
+    <div className="bg-black bg-opacity-70 text-white p-8 w-full text-center flex flex-col justify-center h-[45vh] font-sans">
+      <p className="text-[1.5rem] mb-4 font-bold">
         Insights Into Undergraduate Programmes
       </p>
-      <p className="container-description">
+      <p className="text-[1.5rem] mb-4 font-bold">
         BSc. Computer Science
       </p>
-      <p className="container-description">
+      <p className="text-[1.5rem] mb-4 font-bold">
         BSc. Information Technology
       </p>
     </div>
