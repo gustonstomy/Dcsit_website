@@ -2,8 +2,8 @@ import React from 'react';
 
 const Programs = () => {
   return (
-    <div className="flex flex-col mb-8 md:flex-row mx-5 md:mx-[3rem] lg:mx-[12rem] h-[60vh] md:h-[95vh] lg:h-[60vh] font-sans">
-      <div className="w-full md:w-[37rem] bg-white rounded-lg p-5 md:p-8 text-center mb-10 md:mb-0 md:mr-8">
+    <div className="flex flex-col mb-8 lg:flex-row mx-2 md:mx-[3rem] lg:mx-[2rem] h-[90vh] md:h-[65vh] xl:h-[60vh] lg:h-[45vh] font-sans">
+      <div className="w-full md:w-[37rem] bg-white rounded-lg p-5 md:p-8 text-center mb-10 md:mb-0 md:mr-8 xl:ml-32 ">
         <h2 className="text-2xl md:text-[1.8em] underline mb-5 font-sans">BSc. Computer Science</h2>
         <p className="flex justify-center text-lg md:text-[1.2em] text-paletteColor1 leading-[1.8rem] mb-6 font-sans">
           A BSc Computer Science degree program offers a comprehensive education in computer technology,

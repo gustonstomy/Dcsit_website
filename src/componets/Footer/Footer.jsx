@@ -5,7 +5,7 @@ import { FaFacebook, FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="py-8 md:py-16 px-6 lg:px-20 xl:px-44 bg-gray-900 text-white font-sans h-[60vh]">
+    <div className="py-8 md:py-16 px-6 lg:px-16 xl:px-44 bg-gray-900 text-white font-sans h-[60vh] md:h-[40vh] xl:h-[60vh]">
       <div className="flex flex-wrap justify-between mb-12">
         <div className="mb-6 md:mb-0">
           <h4 className="text-xl font-medium mb-8">Menus</h4>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-between border-t border-gray-600 pt-6">
+      <div className="flex flex-col lg:flex-row items-center justify-between border-t border-gray-600 pt-6">
         <p className="text-lg">Copyright &copy; 2024 Department Of Computer Science & Info. Tech</p>
         <div className="flex flex-wrap space-x-4">
           <a href="/" className="text-lg hover:text-orange-500">Home</a>

@@ -1,10 +1,9 @@
 import React from 'react';
-import './ContactHeader.css';
 
 const ContactHeader = () => {
   return (
-    <div className="trans-con-0">
-      <h1>Contact Us </h1>
+    <div className="bg-black bg-opacity-70 text-white p-8 max-w-full text-center flex items-center justify-center h-[15vh] font-montserrat">
+      <h1 className="text-3xl mb-4 font-bold">Contact Us</h1>
     </div>
   );
 };
