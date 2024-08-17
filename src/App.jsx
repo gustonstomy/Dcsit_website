@@ -13,7 +13,6 @@ import TittleHeader from './componets/landing_page/TittleHeader/TittleHeader'
 import ImageTextComponent from './componets/landing_page/ImageTextComponent/ImageTextComponent'
 import DeliverableSection from './componets/landing_page/DeliverableSection/DeliverableSection'
 import UpcomingEvents from './componets/landing_page/UpcomingEvents/UpcomingEvents'
-import LatestNews from './componets/landing_page/LatestNews/LatestNews'
 import TransparentContainer from './componets/GraduatePrograme/UnderGraduate/TransparentContainer';
 import Programs from './componets/GraduatePrograme/UnderGraduate/Programs';
 import PostPrograms from './componets/GraduatePrograme/PostGraduate/PostPrograms';
@@ -29,10 +28,10 @@ import About from './componets/About/About';
 import MissViss from './componets/About/MissViss';
 import EventHeader from './componets/Event/EventHeader';
 import Events from './componets/Event/Event';
-import News from './componets/News/News';
 import ContactHeader from './componets/Contact/ContactHeader';
 import Contact from './componets/Contact/Contact';
 import LeaveMessage from './componets/Contact/LeaveAMessage';
+
 
 function App() {
    return (
@@ -50,7 +49,7 @@ function App() {
               <ImageTextComponent />
               <DeliverableSection />
               <UpcomingEvents />
-              <LatestNews />
+             
             </>
           } />
           <Route path="/UnderGraduate" element={<>
@@ -83,10 +82,6 @@ function App() {
             <>
             <EventHeader/>
             <Events/>
-           </>} />
-          <Route path="/news-blog" element={
-            <>
-            <News/>
            </>} />
           <Route path="/contact" element={
             <>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { FaInstagram, FaLinkedinIn} from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io";
-import { FaYoutube ,FaFacebook } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 
 
@@ -44,7 +44,7 @@ const Footer= () => {
             <a href='/'>
               <FaInstagram/>
               <IoLogoTwitter/>
-              <FaYoutube/>
+              
               <FaFacebook/>
               <FaLinkedinIn/>
             </a>
