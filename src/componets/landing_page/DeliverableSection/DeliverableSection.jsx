@@ -1,5 +1,4 @@
 import React from 'react';
-import './DeliverableSection.css';
 
 const featuresData = [
   {
@@ -36,13 +35,13 @@ const featuresData = [
 
 const DeliverableSection = () => {
   return (
-    <div className="features-container2">
-      <h2 className="section-title">Delivering the World Class Education</h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-0 bg-blue-900 items-center justify-center p-8 md:px-40 mb-8 h-auto md:h-[120vh]">
+      <h2 className="col-span-3 text-center text-white text-2xl md:text-[2.7rem] mb-8">Delivering the World Class Education</h2>
       {featuresData.map((feature, index) => (
-        <div className="feature-card2" key={index}>
-          <img src={feature.imgSrc} alt={feature.title} className="feature-icon" />
-          <h3 className="feature-title">{feature.title}</h3>
-          <p className="feature-description">{feature.description}</p>
+        <div className="bg-white w-full md:w-[24rem] h-[30vh] md:h-[40vh] p-5 rounded-lg text-left flex flex-col items-start mb-7 md:mb-[1.8rem]" key={index}>
+          <img src={feature.imgSrc} alt={feature.title} className="w-[40px] h-[40px] mb-3 mt-2 md:w-[80px] md:h-[80px]" />
+          <h3 className="text-lg md:text-[1.8rem] text-black mb-4">{feature.title}</h3>
+          <p className="text-lg md:text-[1.1rem] text-gray-600 leading-relaxed md:leading-normal">{feature.description}</p>
         </div>
       ))}
     </div>
