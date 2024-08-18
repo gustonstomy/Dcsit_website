@@ -46,7 +46,7 @@ const Navbar = () => {
             </div>
           </li>
           <li className="relative">
-            <a href="#" onClick={(e) => { e.preventDefault(); toggleSubMenu('staff'); }} className="block py-2 px-4 text-lg hover:text-red-500">
+            <a href="#" onClick={(e) => { e.preventDefault(); toggleSubMenu('staff'); }} className="block py-2  px-4 text-lg hover:text-red-500">
               Staff <span className="ml-1 text-xl">&#9662;</span>
             </a>
             <div className={`absolute top-full left-0 bg-white shadow-lg z-30 w-80 ${subMenuOpen === 'staff' ? 'block' : 'hidden'}`}>
