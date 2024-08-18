@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Tslider.css';
 
 const ImageSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -32,16 +31,13 @@ const ImageSlider = () => {
   }, []);
 
   return (
-    <div className="img-slider">
+    <div className="relative w-full h-[20rem] lg:h-[35rem]">
       {slides.map((slide, index) => (
         <div
-          className={`slider ${index === currentSlide ? 'active' : ''}`}
+          className={`absolute w-full h-full transition-opacity duration-500 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}
           key={index}
-          style={{
-            transition: transitioning && index === currentSlide ? 'opacity 0.5s ease' : 'none'
-          }}
         >
-          <img src={slide.src} alt={slide.alt} className="slide" />
+          <img src={slide.src} alt={slide.alt} className="w-full h-full object-cover" />
         </div>
       ))}
     </div>

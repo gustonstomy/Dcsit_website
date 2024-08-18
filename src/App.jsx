@@ -18,9 +18,9 @@ import Programs from './componets/GraduatePrograme/UnderGraduate/Programs';
 import PostPrograms from './componets/GraduatePrograme/PostGraduate/PostPrograms';
 import TransparentContainerPost from './componets/GraduatePrograme/PostGraduate/TransparentContainerPost';
 import StaffGrid from './componets/Stuff/TeachingStaff/StaffGrid';
-import TeachingStaff from './componets/Stuff/TeachingStaff/TeachingStaff';
+// import TeachingStaff from './componets/Stuff/TeachingStaff/TeachingStaff';
 import NonStaffGrid from './componets/Stuff/NonTeachingStaff/NonStaffGrid';
-import NonTeachingStaff from './componets/Stuff/NonTeachingStaff/NonTeachingStaff';
+// import NonTeachingStaff from './componets/Stuff/NonTeachingStaff/NonTeachingStaff';
 import TImageSlider from './componets/Stuff/TeachingStaff/Tslider';
 import NImageSlider from './componets/Stuff/NonTeachingStaff/Nslider';
 import AboutPage from './componets/About/AboutPage';
@@ -63,13 +63,13 @@ function App() {
           <Route path="/Teaching-Staff" element={
             <>
             <TImageSlider/>
-            <TeachingStaff/>
+            {/* <TeachingStaff/> */}
             <StaffGrid/>
            </>} />
           <Route path="/non-teaching-staff" element={
             <>
             <NImageSlider/>
-            <NonTeachingStaff/>
+            {/* <NonTeachingStaff/> */}
            <NonStaffGrid/>
            </>} />
           <Route path="/about" element={

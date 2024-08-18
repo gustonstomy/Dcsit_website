@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import './Nslider.css';
 
-const NImageSlider = () => {
+const ImageSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [transitioning, setTransitioning] = useState(false);
 
-  const slides = [
+ const slides = [
     { src: '/src/assets/images/NOT1.jpg', alt: 'Slide 1' },
     { src: '/src/assets/images/NOT2.jpg', alt: 'Slide 2' },
     { src: '/src/assets/images/NOT3.jpg', alt: 'Slide 3' },
@@ -31,21 +30,17 @@ const NImageSlider = () => {
   }, []);
 
   return (
-    <div className="img-slider3">
+    <div className="relative w-full h-[20rem] lg:h-[35rem]">
       {slides.map((slide, index) => (
         <div
-          className={`slider3 ${index === currentSlide ? 'active' : ''}`}
+          className={`absolute w-full h-full transition-opacity duration-500 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}
           key={index}
-          style={{
-            transition: transitioning && index === currentSlide ? 'opacity 0.5s ease' : 'none'
-          }}
         >
-          <img src={slide.src} alt={slide.alt} className="slide3" />
-          
+          <img src={slide.src} alt={slide.alt} className="w-full h-full object-cover" />
         </div>
       ))}
     </div>
   );
 };
 
-export default NImageSlider;
+export default ImageSlider;

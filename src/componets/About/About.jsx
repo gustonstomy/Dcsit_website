@@ -1,12 +1,11 @@
 import React from 'react';
-import './About.css';
 
-const About = () => {
+const ContactHeader = () => {
   return (
-    <div className="transparent-container22">
-      <h1>About Us</h1>
+    <div className="bg-black bg-opacity-70 text-white p-8 max-w-full text-center flex items-center justify-center h-[15vh] font-montserrat">
+      <h1 className="text-3xl mb-4 font-bold">About Us</h1>
     </div>
   );
 };
 
-export default About;
+export default ContactHeader;
