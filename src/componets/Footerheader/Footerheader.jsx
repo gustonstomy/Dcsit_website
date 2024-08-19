@@ -31,7 +31,7 @@ const Footerheader = () => {
 
             <div className="">
                 <a href="/contact">
-                    <button className="bg-orange-500 hover:bg-white hover:text-orange-500 text-white border border-orange-500 rounded-full py-1 px-5 md:py-3 md:px-12 lg:mr-8 text-[0.9rem] md:text-[1.3rem] font-medium transition-colors duration-500">
+                    <button className="bg-[#ff6b42] hover:bg-white hover:text-[#ff6b42] text-white border border-[#ff6b42] rounded-full py-1 px-5 md:py-3 md:px-12 lg:mr-8 text-[0.9rem] md:text-[1.3rem] font-medium transition-colors duration-500">
                         Contact us
                     </button>
                 </a>
